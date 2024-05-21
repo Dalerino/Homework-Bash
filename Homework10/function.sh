@@ -25,12 +25,10 @@ read -p "Please enter the number of the function you would like to execute: " ch
 
 if [ $choice -eq 1 ]
 then
-  1st_function
   echo "We have created users, folders, and files."
 
 elif [ $choice -eq 2 ]
 then
-  2nd_function
   echo "We have installed wget httpd tree, and git packages."
 
 else
