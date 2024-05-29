@@ -29,7 +29,7 @@ function install_wordpress() {
     systemctl enable httpd
 }
 
-read -p "Enter the function name to execute (user/folder/install wordpress): " function_name
+read -p "Enter the function name to execute (create_users/create_folders/install_wordpress): " function_name
 if [[ $function_name == "create_users" ]]; then
     create_users
 elif [[ $function_name == "create_folders" ]]; then
